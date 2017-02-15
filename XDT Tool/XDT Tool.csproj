@@ -36,6 +36,9 @@
   <PropertyGroup>
     <StartupObject>XDT_Tool.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Thehoth-Seo-Seo-web-code.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FastColoredTextBox, Version=2.16.21.0, Culture=neutral, PublicKeyToken=fb8aa12b994ef61b, processorArchitecture=MSIL">
       <HintPath>..\packages\FCTB.2.16.21.0\lib\FastColoredTextBox.dll</HintPath>
@@ -104,7 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Thehoth-Seo-Seo-web-code.ico" />
-    <Content Include="xml.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
